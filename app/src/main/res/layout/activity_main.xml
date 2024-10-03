@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!-- Botón para Intent Explícito 1 -->
+    <Button
+        android:id="@+id/btnExplicit1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/intent_expl_cito_1_abrir_actividad"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <!-- Botón para Intent Explícito 2 -->
+    <Button
+        android:id="@+id/btnExplicit2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/intent_expl_cito_2_enviar_datos"
+        app:layout_constraintTop_toBottomOf="@+id/btnExplicit1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <!-- Botón para Intent Explícito 3 -->
+    <Button
+        android:id="@+id/btnExplicit3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/intent_expl_cito_3_obtener_resultado"
+        app:layout_constraintTop_toBottomOf="@+id/btnExplicit2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+     />
+
+    <!-- Botón para Intent Implícito 1 -->
+    <Button
+        android:id="@+id/btnImplicit1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/intent_impl_cito_1_abrir_navegador"
+        app:layout_constraintTop_toBottomOf="@+id/btnExplicit3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <!-- Botón para Intent Implícito 2 -->
+    <Button
+        android:id="@+id/btnImplicit2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/intent_impl_cito_2_abrir_c_mara"
+        app:layout_constraintTop_toBottomOf="@+id/btnImplicit1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <!-- Botón para Intent Implícito 3 -->
+    <Button
+        android:id="@+id/btnImplicit3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/intent_impl_cito_3_llamar_tel_fono"
+        app:layout_constraintTop_toBottomOf="@+id/btnImplicit2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+       />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

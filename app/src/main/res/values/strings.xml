@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">btn6</string>
+    <string name="intent_expl_cito_1_abrir_actividad">Abrir actividad 1</string>
+    <string name="intent_expl_cito_2_enviar_datos">Enviar datos</string>
+    <string name="intent_expl_cito_3_obtener_resultado">Obtener resultado</string>
+    <string name="intent_impl_cito_1_abrir_navegador">Abrir navegador</string>
+    <string name="intent_impl_cito_2_abrir_c_mara">Abrir cámara</string>
+    <string name="intent_impl_cito_3_llamar_tel_fono">Llamar teléfono</string>
+</resources>
